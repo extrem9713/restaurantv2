@@ -36,15 +36,15 @@ app.get('/search', (req, res) => {
   Restaurant.find()
     .lean()
     .then((restaurants) => {
+      
       if (keyword) {
         restaurants = restaurants.filter((restaurant) => restaurant.name.toLowerCase().includes(keyword) || restaurant.category.includes(keyword)
-        )        
-        return res.render('index', {restaurants, keyword})        
+        )                
       }
-      if (restaurants.length === 0) {
-        const error = `<h3>找不到您的關鍵字!</h3>`
-        return res.render('index', {error})
-      }          
+      if (restaurants.length === 0) {                
+        res.render('error')
+      } 
+       res.render('index', {restaurants, keyword})       
     })
     .catch((error) => console.error(error))
 })
