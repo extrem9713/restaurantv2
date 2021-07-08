@@ -10,23 +10,13 @@
   <li>餐廳名稱</li>
   <li>餐廳評價</li>
 </ul>
-<p>
-<h3>餐廳內容</h3>
-<ul>
-  <li>餐廳名稱</li>
-  <li>餐廳照片</li>
-  <li>餐廳類別</li>
-  <li>餐廳評價</li>
-  <li>餐廳電話</li>
-  <li>餐廳地址</li>
-  <li>餐廳簡介</li>
-</ul>
 <h3>功能</h3>
 <ul>
-  <li>按下照片或文字能夠看到餐廳詳細內容</li>
-  <li>可以透過搜尋列尋找餐廳名稱或類別</li>
-  <li>在餐廳內容中可以透過餐廳地址旁的地圖連結google map</li>
-  <li>點擊 My Restaurant List可以回首頁</li>
+<li>使用者可以新增一家餐廳</li>
+<li>使用者可以瀏覽一家餐廳的詳細資訊</li>
+<li>使用者可以瀏覽全部所有餐廳</li>
+<li>使用者可以修改一家餐廳的資訊</li>
+<li>使用者可以刪除一家餐廳</li>
 </ul>
 <h3>下載方法</h3>
 <ol>
@@ -40,15 +30,14 @@
 </ol>
 
 <h3>首頁</h3>
-<img src="/public/images/restaurant1.png">
+<img src="/public/images/restaurant.png">
 <br>
-<h3>餐廳介紹</h3>
-<img src="/public/images/restaurant2.png">
 <h3>使用工具</h3>
 <ul>
   <li>Visual Studio Code</li>
   <li>Express(version:4.17.1)</li>
   <li>Express-handlebars(version:5.3.2)</li>
+  <li>mongoose(version:5.13.2)</li>
   <li>npm</li>
   <li>nodemon</li>
 </ul>
