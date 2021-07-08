@@ -24,8 +24,9 @@
   <li>使用terminal複製本專案: git clone https://github.com/extrem9713/restaurant.git</li>
   <li>使用terminal進入存放資料的資料夾: cd restaurant</li>
   <li>使用terminal安裝npm: npm install</li>
+  <li>使用terminal加入種子資料: npm run seed</li>
   <li>使用terminal安裝nodemon: npm install nodemon</li>
-  <li>使用terminal: nodemon app.js</li>
+  <li>使用terminal: npm run dev</li>
   <li>開啟網頁 http://localhost:3000</li>
 </ol>
 
