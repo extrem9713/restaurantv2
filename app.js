@@ -42,7 +42,7 @@ app.get('/search', (req, res) => {
         )                
       }
       if (restaurants.length === 0) {                
-        res.render('error')
+        return res.render('error')
       } 
        res.render('index', {restaurants, keyword})       
     })
