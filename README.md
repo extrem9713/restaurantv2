@@ -1,7 +1,7 @@
 # restaurant
 <h3>My restaurant List</h3>
 <p>
-這是用node.js+express做成的我的餐廳清單，能夠對餐廳名稱與類別進行搜尋，點擊能看詳細資料
+這是用mongoose+express做成的我的餐廳清單，能夠對餐廳名稱與類別進行搜尋，點擊能看詳細資料
 </p>
 <h3>首頁介紹</h3>
 <ul>
