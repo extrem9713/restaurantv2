@@ -17,8 +17,8 @@ db.once('open', () => {
   console.log('mongodb connected!')
 })
 
-app.engine('handlebars', exphbs({defaultlayout:'main'}))
-app.set('view engine', 'handlebars')
+app.engine('hbs', exphbs({defaultlayout:'main', extname:'hbs'}))
+app.set('view engine', 'hbs')
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({extended: true}))
 
